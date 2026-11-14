@@ -1,0 +1,2 @@
+# Netlify redirect rules. Intentionally empty: Netlify already sends addiesmassage.com to www.addiesmassage.com
+# because www is set as the primary domain in Domain management.
