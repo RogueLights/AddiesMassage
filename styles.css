@@ -138,6 +138,10 @@ html.high-contrast .headshot { border: 2px solid #000; }
 @media (min-width: 44rem) { .card-grid { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 66rem) { .card-grid { grid-template-columns: 1fr 1fr 1fr; } }
 .card-grid p { margin-bottom: 0; }
+@media (min-width: 66rem) { .card-grid.card-grid-four { grid-template-columns: 1fr 1fr; } }
+.service-card { display: flex; flex-direction: column; }
+.service-card .price { margin-top: auto; padding-top: 1rem; font-size: 1.1rem; color: var(--blue-900); }
+.service-card .price strong { font-weight: 700; }
 
 .check-list { list-style: none; padding: 0; }
 .check-list li { position: relative; padding-left: 2rem; margin-bottom: .7rem; }
